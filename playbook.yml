@@ -1,1 +1,4 @@
 texto yamel lalalalajsjsjldld
+
+para que te guarde las credenciales
+git config --global credential.helper cache
