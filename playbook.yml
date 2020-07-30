@@ -1,4 +1,20 @@
 texto yamel lalalalajsjsjldld
 
-para que te guarde las credenciales
-git config --global credential.helper cache
+primero agregar las credenciales al archivo:
+
+        sudo nano ~/.gitconfig
+
+[user]
+        name = nicosistemas
+        email = nic@gmail.com
+        password = lalalalal
+[credential]
+        helper = cache
+
+
+para que te guarde las credenciales:
+
+        git config --global credential.helper cache
+
+
+
